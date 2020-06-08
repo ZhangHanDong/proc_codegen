@@ -1,11 +1,12 @@
 # 过程宏：根据配置文件自动生成代码
 
-by 觉•学社
+[如何加入「觉•学社」？](https://zhuanlan.zhihu.com/p/59517478)
+
+![img](docs/imgs/topic.png)
 
 #### 一、 宏的工作原理介绍
 
 ![img](docs/imgs/proc_macro.png)
-
 
 ### 二、 相关库介绍：syn 和 quote
 
