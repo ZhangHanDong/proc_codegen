@@ -25,7 +25,7 @@ gen_struct_by_conf!{ confs / method.toml }
 const CONF_FILE_PATH : &'static str = "confs/method.toml";
 
 fn main() {
-    let person = Person::new(18, 0, "Alex".to_string());
+    let person = Person::new(18,  "Alex".to_string());
     println!("{:?}", person);
 
     let conf = conf::Conf::read_config();
