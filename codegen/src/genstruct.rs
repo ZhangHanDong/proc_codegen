@@ -133,9 +133,8 @@ pub(crate) fn struct_by_conf_to_tokenstream(input: TokenStream) -> TokenStream {
         };
 
         let struct_name = util::to_ident(s.name.to_string().to_camel_case().as_ref());
-
         quote!{
-            #[derive(Debug)]
+            #[derive(#derive_name)]
             pub struct #struct_name {
                 #( #fields_quote, )*
             }
